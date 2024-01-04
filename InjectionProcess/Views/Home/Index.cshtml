@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model InjectionProcess.ViewModel.HomeVM
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>@Model.MarketForecast</p>
+
+    <p>Sim Card Message :  @Model.design.simMessage </p>
+    <p>Memory Size      :  @Model.design.MemorySize </p>
+</div>
